@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+   font-weight: 700;
+}
+p{
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.btn{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    border: none;
+    background-color:  rgba(124, 135, 152, 0.2);
+    color: white;
+}
+
+.btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    
+}
+
+.btn1{
+    margin-left: 0;
+}
+
+.btn5{
+    margin-right: 0;
+}
+
+/* divs */
+.main-container{
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    height: 350px;
+    width: 360px;
+    padding: 23px 23px 10px 23px;
+    border-radius: 23px;
+    
+}
+
+.star-div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgba(124, 135, 152, 0.2);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.star{
+    height: 20px;
+    width: 20px;  
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.submit-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+  
+.btn-submit{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 40px;
+    border-radius: 40px ;
+    border: none;
+    
+}
+
+.btn-submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.hide{
+    display: none;
+}
+
+.thank-you{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+
+.rating{
+    background-color: rgba(124, 135, 152, 0.2);
+    border-radius: 20px;
+    margin: 20px auto 15px auto;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating p{
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    margin-top: 35px;
+}
+
+.appreciate{
+    text-align: center ;
+}
+
+.active{
+    background-color:hsl(25, 97%, 53%); ;
+}
+
+.non-active{
+    background-color: rgba(124, 135, 152, 0.2);;
+}
